@@ -90,7 +90,7 @@ Use Git commands for clone code from the repository.
 Clone
 Use git clone command to clone repository
 ```
-
+https://github.com/Neha-Rajput/ClearScore.git
 ```
 After successful 
 
