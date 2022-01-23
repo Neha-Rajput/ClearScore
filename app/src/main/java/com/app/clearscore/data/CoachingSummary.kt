@@ -1,8 +1,6 @@
 package com.app.clearscore.data
 
 
-import com.google.gson.annotations.SerializedName
-
 data class CoachingSummary(
     val activeChat: Boolean = false,
     val activeTodo: Boolean = false,

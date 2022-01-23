@@ -5,15 +5,14 @@ import com.app.bbcapp.network.ApiInterface
 import org.junit.Before
 import org.junit.runner.RunWith
 
-@RunWith(AndroidJUnit4::class)
-class MainViewModelTest {
+@RunWith(AndroidJUnit4::class) class MainViewModelTest {
 
-   lateinit var mainViewModel : MainViewModel
+    lateinit var mainViewModel: MainViewModel
 
-    lateinit var apiInterface : ApiInterface
+    lateinit var apiInterface: ApiInterface
 
     @Before
-    fun setup(){
+    fun setup() {
         mainViewModel = MainViewModel(apiInterface)
     }
 

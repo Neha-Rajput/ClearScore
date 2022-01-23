@@ -9,7 +9,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
 
-class MyApplication : MultiDexApplication() {
+class ClearScoreApplication : MultiDexApplication() {
     @InternalCoroutinesApi
     override fun onCreate() {
         super.onCreate()
@@ -20,7 +20,7 @@ class MyApplication : MultiDexApplication() {
     @InternalCoroutinesApi
     private fun configureKoin() {
         startKoin {
-            androidContext(this@MyApplication)
+            androidContext(this@ClearScoreApplication)
             modules(netModule, apiModule, viewModelScope)
         }
     }

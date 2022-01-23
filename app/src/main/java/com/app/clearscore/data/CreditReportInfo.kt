@@ -1,8 +1,6 @@
 package com.app.clearscore.data
 
 
-import com.google.gson.annotations.SerializedName
-
 data class CreditReportInfo(
     val changeInLongTermDebt: Int = 0,
     val changeInShortTermDebt: Int = 0,
