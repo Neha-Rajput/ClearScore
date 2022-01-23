@@ -48,6 +48,7 @@ Retrofit is a REST Client for Java and Android. It makes it relatively easy to r
 *KOIN
 Koin is a dependency injection framework that conforms to this need. It is a lightweight framework, easy to learn, and does not have much boilerplate code. Let's see how we can use this framework to manage dependencies in our Android applications
 
+```
   // Koin for Android
     implementation "io.insert-koin:koin-android:$koin_version"
 // Koin Android Scope features
@@ -56,7 +57,7 @@ Koin is a dependency injection framework that conforms to this need. It is a lig
     implementation "io.insert-koin:koin-android-viewmodel:$koin_version"
 // Koin Android Experimental features
     implementation "io.insert-koin:koin-android-ext:$koin_version"
-
+```
 
 ## Lifecycle and Viewmodel
 
